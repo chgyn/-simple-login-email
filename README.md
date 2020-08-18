@@ -1,6 +1,4 @@
-# Poker Hands Study App
-
-> Poker app
+# Login Email Test
 
 ## Build Setup
 
