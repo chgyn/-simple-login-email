@@ -1,0 +1,14 @@
+.hold-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    .pin {
+        position: absolute;
+    }
+
+    :v-deep .el-checkbox__inner {
+        background: #858585;
+    }
+}

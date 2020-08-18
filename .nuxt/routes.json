@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/home/leonardo/Workspace/teste-wiid/pages/dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "children": [
+      {
+        "name": "dashboard-id",
+        "path": ":id?",
+        "component": "/home/leonardo/Workspace/teste-wiid/pages/dashboard/_id.vue",
+        "chunkName": "pages/dashboard/_id",
+        "_name": "_9fb2a1bc"
+      }
+    ],
+    "_name": "_3a709612"
+  },
+  {
+    "name": "Login",
+    "path": "/Login",
+    "component": "/home/leonardo/Workspace/teste-wiid/pages/Login.vue",
+    "chunkName": "pages/Login",
+    "_name": "_0a7304ac"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/leonardo/Workspace/teste-wiid/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6d4d7c96"
+  }
+]

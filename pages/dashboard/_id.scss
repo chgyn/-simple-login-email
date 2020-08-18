@@ -1,0 +1,30 @@
+@mixin random-bgr(){
+    background: rgba(random(255), random(255), random(255), 0.4);
+}
+
+.dashId {
+    width: 100%;
+    .filters {
+        margin-bottom: 20px;
+    }
+    .hold-cards {
+        width: 100%;
+        ::v-deep .el-avatar {
+            color: black;
+            $num-colors: 100;
+            @for $i from 0 to $num-colors {
+                &:nth-child(#{$i}) {
+                  @include random-bgr();
+                }
+              }
+            & + .el-avatar {
+                margin-left: 5px;
+            }
+        }
+    }
+    .no-items {
+        color: #a8a8a8;
+        font-size: 22px;
+    }
+
+}
