@@ -1,4 +1,4 @@
-# Login Email Test
+# Simple Dash Email - Personal tests
 
 ## Build Setup
 
